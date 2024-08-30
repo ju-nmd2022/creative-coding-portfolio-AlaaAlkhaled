@@ -3,5 +3,15 @@
     "file": "experiments/example.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  }
+  },
+  {
+    "file": "experiments/art.js",
+    "name": " recreation Anticlassic 0.8 by Tyler Hobbs",
+    "description": "I recreated this art to explore how a small mistake can turn an orderly pattern into something unexpectedly beautiful. It shows how chaos can still have a natural structure, like rocks shaped by a river. This process highlights the beauty in unpredictability."
+    },
+    {
+      "file": "experiments/art1.js",
+      "name": "recreation Soft Landscape 34 0.8 by Tyler Hobbs",
+      "description": "I created the Soft Landscape to explore how smooth, flowing lines can evoke the calmness of nature. I wanted to capture the gentle curves of hills and valleys, showing how simple techniques can create a serene and natural-looking landscape."
+    }
 ]
