@@ -5,13 +5,23 @@
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
   },
   {
-    "file": "experiments/art.js",
+    "file": "experiments/art1.js",
     "name": " recreation Anticlassic 0.8 by Tyler Hobbs",
     "description": "I recreated this art to explore how a small mistake can turn an orderly pattern into something unexpectedly beautiful. It shows how chaos can still have a natural structure, like rocks shaped by a river. This process highlights the beauty in unpredictability."
     },
     {
-      "file": "experiments/art1.js",
+      "file": "experiments/art2.js",
       "name": "recreation Soft Landscape 34 0.8 by Tyler Hobbs",
       "description": "I created the Soft Landscape to explore how smooth, flowing lines can evoke the calmness of nature. I wanted to capture the gentle curves of hills and valleys, showing how simple techniques can create a serene and natural-looking landscape."
-    }
+    },
+    {
+      "file": "experiments/art1Variation1.js",
+      "name": "Art Variation 1 - Circular Grid",
+      "description": "This version uses a circular grid with random colors and shapes, creating a unique, unpredictable pattern."
+  },
+  {
+      "file": "experiments/art1Variation2.js",
+      "name": "Art Variation 2 - Size-based Circles",
+      "description": "In this version, the circles are bigger in the center and get smaller as they move outward, forming an interesting pattern."
+  }
 ]
