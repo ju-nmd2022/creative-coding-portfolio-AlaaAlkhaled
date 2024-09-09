@@ -23,5 +23,10 @@
       "file": "experiments/art1Variation2.js",
       "name": "Art Variation 2 - Size-based Circles",
       "description": "In this version, the circles are bigger in the center and get smaller as they move outward, forming an interesting pattern."
+  },
+  {
+    "file": "experiments/particle.js",
+    "name": "Particle Movement and Circle Avoidance",
+    "description": "This experiment features particles moving towards a corner, avoiding circles, and arrows inside the circles that point towards the corner."
   }
 ]

@@ -15,7 +15,7 @@ function draw() {
     circles = [];
     
     let radiusStep = width / (2 * numBands);
-    translate(width / 2, height / 3);
+    translate(width / 2, height / 2);
 
     for (let band = 0; band < numBands; band++) {
         let bandColor = getColor(band);

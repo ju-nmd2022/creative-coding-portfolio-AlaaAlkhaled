@@ -18,10 +18,9 @@ function setup() {
 function draw() {
     background(220);
 
-    // Draw circles, arrows, and update particles
     for (let circle of circles) {
         noStroke();
-        ellipse(circle.x, circle.y, circle.radius * 2, circle.radius * 2); // Draw the circle
+        ellipse(circle.x, circle.y, circle.radius * 2, circle.radius * 2);
         drawArrow(circle); 
     
         // Move and avoid circles for each particle
@@ -35,13 +34,11 @@ function draw() {
     }
 }
 
-// Draw an arrow inside the circle pointing to the corner
 function drawArrow(circle) {
     stroke(random (0, 100));
     strokeWeight(4);
     fill(0);
 
-    // Calculate the direction towards the corner
     let dirX = corner.x - circle.x;
     let dirY = corner.y - circle.y;
     let mag = sqrt(dirX * dirX + dirY * dirY);
@@ -51,19 +48,17 @@ function drawArrow(circle) {
         dirY /= mag;
     }
 
-    // Set the length of the arrow based on the circle's radius
     let arrowLength = circle.radius * 0.7;
 
-    // Draw the arrow line from the center of the circle
     let arrowX = circle.x + dirX * arrowLength;
     let arrowY = circle.y + dirY * arrowLength;
     line(circle.x, circle.y, arrowX, arrowY);
 
-    // Draw the arrowhead (triangle) at the end of the line
+    
     let arrowSize = 6;
     push();
     translate(arrowX, arrowY);
-    rotate(atan2(dirY, dirX)); // Rotate the triangle to point in the correct direction
+    rotate(atan2(dirY, dirX)); 
     beginShape();
     vertex(0, 0);
     vertex(-arrowSize, arrowSize / 2);
@@ -83,7 +78,6 @@ function moveParticle(particle) {
         dirY /= mag;
     }
 
-    // Move particle towards the corner
     particle.x += dirX * particle.speed;
     particle.y += dirY * particle.speed;
 
@@ -94,6 +88,7 @@ function moveParticle(particle) {
     if (particle.y > height) particle.y = 0;
 }
 
+// the next function is created with help pf chatGPT
 // Push particles away from circles if they get too close
 function avoidCircles(particle) {
     for (let circle of circles) {
@@ -113,7 +108,6 @@ function avoidCircles(particle) {
     }
 }
 
-// Create and draw a circle without overlap
 function createAndDrawCircle() {
     let newCircle;
     let safeToDraw = false;
@@ -162,7 +156,6 @@ function doesCircleHaveACollision(circle) {
             circle.y - circle.radius < 0 || circle.y + circle.radius > height);
 }
 
-// Create particles around the circle
 function createParticles(circle) {
     const numParticles = 10;
     const speed = 1.5;
