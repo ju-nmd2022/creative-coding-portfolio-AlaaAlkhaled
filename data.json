@@ -25,8 +25,13 @@
       "description": "In this version, the circles are bigger in the center and get smaller as they move outward, forming an interesting pattern."
   },
   {
-    "file": "experiments/particle.js",
-    "name": "Particle Movement and Circle Avoidance",
-    "description": "This experiment features particles moving towards a corner, avoiding circles, and arrows inside the circles that point towards the corner."
+    "file": "experiments/particle-circle-interaction.js",
+    "name": "Particle-Circle Interaction",
+    "description": "This experiment features particles moving toward a corner, interacting with and avoiding circles."
+  },
+  {
+    "file": "experiments/flow-field-particle-motion.js",
+    "name": "Flow Field Particle Motion with Circle Grid",
+    "description": "This experiment features particles influenced by a flow field while moving across a structured grid of circles."
   }
 ]
