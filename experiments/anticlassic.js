@@ -4,7 +4,7 @@ const direction = 0.1;
 const numBands = 20;
 
 function setup() {
-    createCanvas(innerHeight, innerWidth);
+    createCanvas(600, 600);
     noLoop(); 
 }
 

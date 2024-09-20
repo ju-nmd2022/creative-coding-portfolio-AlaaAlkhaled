@@ -4,10 +4,10 @@ let noiseScale = 0.003;
 let noiseStrength = 100; 
 
 function setup() {
-    createCanvas(600, 800);
+    createCanvas(600, 600);
     noLoop();
 
-    noiseSeed(10); // Set a seed for the noise function
+    noiseSeed(10);
 
     layerHeight = height / numLayers + 50;
 }

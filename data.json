@@ -1,18 +1,23 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  },
-  {
-    "file": "experiments/art1.js",
+    "file": "experiments/anticlassic.js",
     "name": " recreation Anticlassic 0.8 by Tyler Hobbs",
     "description": "I recreated this art to explore how a small mistake can turn an orderly pattern into something unexpectedly beautiful. It shows how chaos can still have a natural structure, like rocks shaped by a river. This process highlights the beauty in unpredictability."
     },
     {
-      "file": "experiments/art2.js",
+      "file": "experiments/anticlassicVariation.js",
+      "name": "Anticlassic artwork Variation",
+      "description": "A variation of the Anticlassic recreation, exploring randomness in patterns with colorful circular forms, emphasizing the beauty of controlled chaos."
+    },
+    {
+      "file": "experiments/layeredLandscape.js",
       "name": "recreation Soft Landscape 34 0.8 by Tyler Hobbs",
       "description": "I created the Soft Landscape to explore how smooth, flowing lines can evoke the calmness of nature. I wanted to capture the gentle curves of hills and valleys, showing how simple techniques can create a serene and natural-looking landscape."
+    },
+    {
+      "file": "experiments/softDesertDunes.js",
+      "name": "Desert Night Landscape",
+      "description": "A creative desert landscape featuring soft dunes under a starry night sky."
     },
     {
       "file": "experiments/art1Variation1.js",
@@ -33,5 +38,10 @@
     "file": "experiments/flow-field-particle-motion.js",
     "name": "Flow Field Particle Motion with Circle Grid",
     "description": "This experiment features particles influenced by a flow field while moving across a structured grid of circles."
+  },
+  {
+    "file": "experiments/flow-field-particle-sound.js",
+    "name": "Flow Field Particle Sound",
+    "description": "Particles follow a flow field and trigger piano-like sounds when crossing boundaries."
   }
 ]
