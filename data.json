@@ -43,5 +43,10 @@
     "file": "experiments/flow-field-particle-sound.js",
     "name": "Flow Field Particle Sound",
     "description": "Particles follow a flow field and trigger piano-like sounds when crossing boundaries."
-  }
+  },
+  {
+    "file": "experiments/fft-agents-sound.js",
+    "name": "FFT Agents Sound Interaction",
+    "description": "Agents move based on a flow field and influence smooth sound generation, visualized with a dynamic FFT spectrum."
+  }  
 ]
